@@ -31,7 +31,7 @@ const Home = () => {
             />
             <div className="home">
                 <h1 className="primary-title">Team Swap®</h1>
-                <button className="primary-button" onClick={handleClick}>
+                <button className="primary-button color-1" onClick={handleClick}>
                     {authToken ? 'Signout' : 'Create Account'}
                 </button>
 

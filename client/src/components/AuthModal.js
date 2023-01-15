@@ -76,7 +76,7 @@ const AuthModal = ({ setShowModal,  isSignUp }) => {
                     required={true}
                     onChange={(e) => setConfirmPassword(e.target.value)}
                 />}
-                <input className="secondary-button" type="submit"/>
+                <input className="secondary-button" type="submit" value={"SUBMIT"}/>
                 <p>{error}</p>
             </form>
 
