@@ -8,7 +8,7 @@ const bcrypt = require('bcrypt')
 const url = require("url");
 const {add} = require("nodemon/lib/rules");
 
-const uri = 'mongodb+srv://Admin:asd173.MDB097@cluster0.amhnk2p.mongodb.net/?retryWrites=true&w=majority'
+const uri = 'your mongodb conneciton link'
 
 const app = express()
 app.use(cors())
